@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --nps-low: #22c55e;
+  --nps-medium: #eab308;
+  --nps-high: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #0a0a0f;
+  color: #e2e8f0;
+}
