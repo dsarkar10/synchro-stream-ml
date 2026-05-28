@@ -147,7 +147,7 @@ print("  OK")
 # FIGURE 2: Strategy Tradeoff Comparison
 # ══════════════════════════════════════════════════════════════
 print("Figure 2: Strategy Tradeoffs...")
-fig, ax = plt.subplots(figsize=(8.5, 5.5))
+fig, ax = plt.subplots(figsize=(8.5, 6.0))
 
 metric_labels = ["Plasticity\n(Learn New)", "Stability\n(Retain Old)", "Throughput\n(Processing Speed)"]
 strat_data = [
@@ -173,10 +173,12 @@ ax.set_xticklabels(metric_labels, fontsize=11)
 ax.set_ylabel("Score (0.0 – 1.0)")
 ax.set_ylim(0, 1.25)
 ax.legend(fontsize=9, loc="lower center", bbox_to_anchor=(0.5, 1.08), ncol=3, framealpha=0.9)
-ax.set_title("Figure 2: Strategy Tradeoff Comparison\nPlasticity vs. Stability vs. Throughput", fontsize=13, fontweight="bold")
+ax.set_title("", fontsize=13, fontweight="bold")
 ax.axhline(y=0.5, color="gray", linestyle=":", alpha=0.4)
 
-fig.subplots_adjust(top=0.82)
+fig.suptitle("Figure 2: Strategy Tradeoff Comparison\nPlasticity vs. Stability vs. Throughput",
+             fontsize=13, fontweight="bold", y=0.98)
+fig.subplots_adjust(top=0.83)
 fig.savefig(os.path.join(DOC_DIR, "fig2_strategy_tradeoffs.png"), dpi=300)
 plt.close()
 print("  OK")
