@@ -1,0 +1,11 @@
+Metric,Value
+Total Trials,200
+Mean NPS (± std),0.585 ± 0.381
+Median NPS,0.624
+NPS Range,0.004 – 1.000
+Low Conflict (< 0.3),67 trials (33.5%)
+Moderate (0.3–0.7),41 trials (20.5%)
+High Conflict (> 0.7),92 trials (46.0%)
+Avg Buffer Factor (high NPS),1.78x
+Pearson r (shift vs NPS),-0.039
+p-value,5.83e-01
