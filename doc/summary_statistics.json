@@ -1,0 +1,17 @@
+{
+  "total_trials": 200,
+  "mean_nps": 0.5547,
+  "std_nps": 0.3843,
+  "median_nps": 0.4632,
+  "nps_min": 0.0074,
+  "nps_max": 1.0,
+  "low_conflict_count_nps_under_0.3": 70,
+  "low_conflict_pct": 35.0,
+  "moderate_conflict_count_0.3_to_0.7": 46,
+  "moderate_conflict_pct": 23.0,
+  "high_conflict_count_nps_over_0.7": 84,
+  "high_conflict_pct": 42.0,
+  "avg_buffer_factor_high_nps": 1.81,
+  "pearson_r_shift_vs_nps": -0.0237,
+  "p_value_shift_vs_nps": 0.739
+}

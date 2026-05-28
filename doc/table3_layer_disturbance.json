@@ -1,0 +1,38 @@
+[
+  {
+    "nps_regime": "Low (< 0.3)",
+    "trial_count": 70,
+    "input_layer_mean": 0.8409,
+    "input_layer_std": 0.1531,
+    "hidden_layer_1_mean": 0.5412,
+    "hidden_layer_1_std": 0.2221,
+    "hidden_layer_2_mean": 0.238,
+    "hidden_layer_2_std": 0.2055,
+    "output_layer_mean": 0.0192,
+    "output_layer_std": 0.0263
+  },
+  {
+    "nps_regime": "Moderate (0.3\u20130.7)",
+    "trial_count": 46,
+    "input_layer_mean": 0.9018,
+    "input_layer_std": 0.1024,
+    "hidden_layer_1_mean": 0.8068,
+    "hidden_layer_1_std": 0.1549,
+    "hidden_layer_2_mean": 0.5157,
+    "hidden_layer_2_std": 0.1996,
+    "output_layer_mean": 0.0908,
+    "output_layer_std": 0.1162
+  },
+  {
+    "nps_regime": "High (> 0.7)",
+    "trial_count": 84,
+    "input_layer_mean": 0.9477,
+    "input_layer_std": 0.0866,
+    "hidden_layer_1_mean": 0.9465,
+    "hidden_layer_1_std": 0.1215,
+    "hidden_layer_2_mean": 0.934,
+    "hidden_layer_2_std": 0.1392,
+    "output_layer_mean": 0.9172,
+    "output_layer_std": 0.2069
+  }
+]

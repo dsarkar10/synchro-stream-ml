@@ -1,7 +1,0 @@
-| NPS Regime         |   Trial Count |   Input Layer (Mean) |   Input Layer (Std) |   Hidden Layer 1 (Mean) |   Hidden Layer 1 (Std) |   Hidden Layer 2 (Mean) |   Hidden Layer 2 (Std) |   Output Layer (Mean) |   Output Layer (Std) |
-|:-------------------|--------------:|---------------------:|--------------------:|------------------------:|-----------------------:|------------------------:|-----------------------:|----------------------:|---------------------:|
-| Low (< 0.3)        |            67 |                0.869 |               0.149 |                   0.646 |                  0.251 |                   0.275 |                  0.196 |                 0.02  |                0.023 |
-| Moderate (0.3–0.7) |            41 |                0.897 |               0.112 |                   0.821 |                  0.173 |                   0.591 |                  0.208 |                 0.143 |                0.163 |
-| High (> 0.7)       |            92 |                0.944 |               0.105 |                   0.962 |                  0.089 |                   0.951 |                  0.114 |                 0.859 |                0.286 |
-
-**Table 3: Layer-wise perturbation disturbance across NPS regimes. Values closer to 1.0 indicate higher gradient conflict.**

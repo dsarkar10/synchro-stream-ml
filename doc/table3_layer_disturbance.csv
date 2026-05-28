@@ -1,4 +1,4 @@
-NPS Regime,Trial Count,Input Layer (Mean),Input Layer (Std),Hidden Layer 1 (Mean),Hidden Layer 1 (Std),Hidden Layer 2 (Mean),Hidden Layer 2 (Std),Output Layer (Mean),Output Layer (Std)
-Low (< 0.3),67,0.869,0.149,0.646,0.251,0.275,0.196,0.020,0.023
-Moderate (0.3–0.7),41,0.897,0.112,0.821,0.173,0.591,0.208,0.143,0.163
-High (> 0.7),92,0.944,0.105,0.962,0.089,0.951,0.114,0.859,0.286
+nps_regime,trial_count,input_layer_mean,input_layer_std,hidden_layer_1_mean,hidden_layer_1_std,hidden_layer_2_mean,hidden_layer_2_std,output_layer_mean,output_layer_std
+Low (< 0.3),70,0.8409,0.1531,0.5412,0.2221,0.238,0.2055,0.0192,0.0263
+Moderate (0.3–0.7),46,0.9018,0.1024,0.8068,0.1549,0.5157,0.1996,0.0908,0.1162
+High (> 0.7),84,0.9477,0.0866,0.9465,0.1215,0.934,0.1392,0.9172,0.2069

@@ -1,0 +1,32 @@
+[
+  {
+    "strategy": "Buffered Linear + EWC",
+    "nps_range": "> 0.7",
+    "safety": "High",
+    "plasticity": 0.25,
+    "stability": 0.95,
+    "throughput": 0.3,
+    "memory_overhead": "High (3x buffer)",
+    "forgetting_risk": "Low"
+  },
+  {
+    "strategy": "Interleaved Mini-Batch",
+    "nps_range": "0.3 \u2013 0.7",
+    "safety": "Medium",
+    "plasticity": 0.55,
+    "stability": 0.65,
+    "throughput": 0.6,
+    "memory_overhead": "Medium",
+    "forgetting_risk": "Medium"
+  },
+  {
+    "strategy": "High-Speed Parallel",
+    "nps_range": "< 0.3",
+    "safety": "Low",
+    "plasticity": 0.9,
+    "stability": 0.25,
+    "throughput": 0.95,
+    "memory_overhead": "Low (1x buffer)",
+    "forgetting_risk": "High"
+  }
+]
