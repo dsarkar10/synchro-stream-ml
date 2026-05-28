@@ -136,7 +136,7 @@ ax.set_ylabel("Number of Trials (out of 200)")
 ax.set_title("(b) Strategy Selection Frequency", fontsize=13, fontweight="bold")
 ax.set_ylim(0, max(counts) * 1.2)
 
-fig.suptitle("Figure 1: Neural Perturbation Score Analysis", fontsize=14, fontweight="bold", y=1.01)
+fig.suptitle("Neural Perturbation Score Analysis", fontsize=14, fontweight="bold", y=1.01)
 fig.tight_layout()
 fig.savefig(os.path.join(DOC_DIR, "fig1_nps_distribution.png"), dpi=300)
 plt.close()
@@ -176,7 +176,7 @@ ax.legend(fontsize=9, loc="lower center", bbox_to_anchor=(0.5, 1.02), ncol=3, fr
 ax.set_title("", fontsize=13, fontweight="bold")
 ax.axhline(y=0.5, color="gray", linestyle=":", alpha=0.4)
 
-fig.suptitle("Figure 2: Strategy Tradeoff Comparison\nPlasticity vs. Stability vs. Throughput",
+fig.suptitle("Strategy Tradeoff Comparison\nPlasticity vs. Stability vs. Throughput",
              fontsize=13, fontweight="bold", y=0.99)
 fig.subplots_adjust(top=0.78)
 fig.savefig(os.path.join(DOC_DIR, "fig2_strategy_tradeoffs.png"), dpi=300)
@@ -221,7 +221,7 @@ for ax, (title, subset, color) in zip(axes, regime_config):
     ax.text(0.98, 0.95, f"N={n_trials}", transform=ax.transAxes, ha="right", va="top",
             fontsize=8, color="gray", fontstyle="italic")
 
-fig.suptitle("Figure 3: Layer-wise Perturbation Sensitivity Across NPS Regimes", fontsize=13, fontweight="bold", y=1.02)
+fig.suptitle("Layer-wise Perturbation Sensitivity Across NPS Regimes", fontsize=13, fontweight="bold", y=1.02)
 fig.tight_layout()
 fig.savefig(os.path.join(DOC_DIR, "fig3_layer_sensitivity.png"), dpi=300)
 plt.close()
@@ -270,7 +270,7 @@ ax.set_xlabel("NPS Range")
 ax.set_ylabel("Buffer Resize Factor")
 ax.set_title("(b) Mean Resize Factor by NPS Range", fontsize=13, fontweight="bold")
 
-fig.suptitle("Figure 4: Dynamic Buffer Resizing — Reducing Catastrophic Forgetting by 22%", fontsize=13, fontweight="bold", y=1.02)
+fig.suptitle("Dynamic Buffer Resizing — Reducing Catastrophic Forgetting by 22%", fontsize=13, fontweight="bold", y=1.02)
 fig.tight_layout()
 fig.savefig(os.path.join(DOC_DIR, "fig4_buffer_resizing.png"), dpi=300)
 plt.close()
@@ -303,7 +303,7 @@ ax.text(df["shift"].max()*0.95, 0.72, "High conflict (NPS > 0.7)", fontsize=8, c
 ax.text(df["shift"].max()*0.95, 0.22, "Low conflict (NPS < 0.3)", fontsize=8, color=C["green"], ha="right")
 ax.set_xlabel("Distribution Shift Parameter (σ)")
 ax.set_ylabel("Neural Perturbation Score (NPS)")
-ax.set_title("Figure 5: NPS Response to Distribution Shift\nN = 200 Trials with Varying σ", fontsize=13, fontweight="bold")
+ax.set_title("NPS Response to Distribution Shift\nN = 200 Trials with Varying σ", fontsize=13, fontweight="bold")
 ax.legend(fontsize=9, loc="lower right")
 ax.set_ylim(-0.05, 1.1)
 

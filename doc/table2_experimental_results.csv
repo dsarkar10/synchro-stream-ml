@@ -1,7 +1,7 @@
 shift_bin,trial_count,mean_nps,std_nps,plasticity,stability,throughput,buffer_factor,preferred_strategy
-0–0.3,36,0.7024,0.386,0.4375,0.75,0.4875,1.52,Buffered Linear Ingestion
-0.3–0.6,42,0.569,0.4149,0.5488,0.631,0.5988,1.39,Buffered Linear Ingestion
-0.6–0.9,28,0.5336,0.4053,0.5714,0.6071,0.6214,1.33,Buffered Linear Ingestion
-0.9–1.2,28,0.553,0.3893,0.5571,0.625,0.6071,1.33,Buffered Linear Ingestion
-1.2–1.5,38,0.6103,0.363,0.5184,0.6658,0.5684,1.36,Buffered Linear Ingestion
-1.5–1.8,28,0.7558,0.3247,0.4196,0.7714,0.4696,1.55,Buffered Linear Ingestion
+0–0.3,27,0.5074,0.424,0.5833,0.5944,0.6333,1.33,High-Speed Parallel
+0.3–0.6,37,0.5276,0.3606,0.5662,0.6176,0.6162,1.27,Interleaved Mini-Batch
+0.6–0.9,24,0.5868,0.3973,0.5312,0.65,0.5812,1.38,Buffered Linear Ingestion
+0.9–1.2,35,0.7112,0.3736,0.4314,0.7586,0.4814,1.52,Buffered Linear Ingestion
+1.2–1.5,37,0.5889,0.4202,0.5554,0.623,0.6054,1.43,Buffered Linear Ingestion
+1.5–1.8,40,0.7403,0.3343,0.4325,0.7575,0.4825,1.51,Buffered Linear Ingestion
