@@ -1,4 +1,4 @@
-# SynchroStream-ML
+# SynchroStream-ML - (Under Review @ Elsevier - Manuscript number ASOC-D-26-08088))
 
 **A Decision Support System for MLOps: Quantifying Data-to-Model Conflict to Prevent Catastrophic Forgetting in Recurring Data Streams**
 
